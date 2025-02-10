@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+
+    <html>
+
+        <head>
+
+            <title> Form</title>
+
+        </head>
+
+            <body>
+
+                <h1 style="color: rgb(221, 159, 26);">How can we Help?</h1>
+
+                    <fieldset > 
+
+                            <legend style="color: blue;">Reqeustfor proposal</legend>
+
+                                <table border="0"> 
+
+                                    <form>
+                                
+
+                                                    <tr>
+
+                                                        <td> <label> Full name:</label></td>
+                                                        <td> <input type="text" placeholder="F name"required/> </td><br>
+                                                        
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td> <label> Email:</label>  </td>
+                                                        <td> <input type="email" placeholder="email"required/> </td>  <br>
+
+                                                    </tr> 
+                                    
+                                                    <tr>
+
+                                                        <td> <label> Username:</label></td> 
+                                                        <td> <input type="text" placeholder="Last name"required/> </td> <br>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td> <label> Password:</label>   
+                                                        <td> <input type="Password" placeholder="Password"required/> </td> 
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td>  <label>Your Business:</label></td>
+                                                        <td>  <textarea rows="10" cols="30">Briefly describe your business in this space </textarea> <br></td>
+
+                                                    </tr>    
+                                        
+                                                    <tr>
+
+                                                        <td> Company size: </td>   
+                                                        <td><input type="radio" name="size" id="less than">   <label for="less than">Less than 10 </label></td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td>  </td>   
+                                                        <td><input type="radio" name="size"> <label>11 to 50</label></td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td>  </td>   
+                                                        <td><input type="radio" name="size"> <label> 50 to 200</label></td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td>  </td>   
+                                                        <td><input type="radio" name="size"> <label> over 200</label></td>
+                                        
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td> Service: </td>
+                                                        <td> <input type="checkbox">  <label> Brand Identity</label>
+                                                        <input type="checkbox">  <label> New Website </label>
+                                                        <input type="checkbox">  <label> Web Designer </label></td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td> Timeline:  </td> 
+                                                        <td> <select name="BSIT">     
+                                                        <option >immediately</option>
+                                                        <option value="1=2 weeks">1 - 2 weeks</option>
+                                                        <option value="3=6 weeks">3 - 6 weeks</option>
+                                                        <option value="7 - 2 months">7 - 2 months</option>
+                                                        </select></td>
+
+                                                    </tr>   
+                                
+
+
+                                                    <tr>
+                                            
+                                                        <td></td>
+                                                        <td> <input type="button" value="Send to dev/design"> </td>
+
+                                                    </tr>  
+
+                                                    
+
+
+    
+                                    </form>
+
+                            </table>
+
+                    </fieldset>
+                
+            </body>
+
+</html>
+
+
+
 
